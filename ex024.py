@@ -1,0 +1,5 @@
+cidade = input('Digite o nome de uma cidade: ').strip()
+cidade = cidade.lower().capitalize()
+cidade = ' '.join(cidade.split())
+nome = cidade.split()
+print('O nome da cidade contem a palavra "Santo": {}'.format('Santo' in nome[0]))

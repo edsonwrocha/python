@@ -1,0 +1,5 @@
+nome = input('Digite seu nome: ')
+nome_list = nome.split()
+num_list = len(nome_list)
+print('O primero nome é: {}'.format(nome_list[0]))
+print('O último nome é: {}'.format(nome_list[num_list-1]))
