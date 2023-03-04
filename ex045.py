@@ -1,6 +1,6 @@
 from random import randint
 from time import sleep
-
+print('teste')
 cores = {
         'verde': '\033[32m',
         'vermelho': '\033[31m',
