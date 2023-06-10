@@ -1,5 +1,5 @@
 from random import randint
-num = (randint(0, 10), randint(0, 10), randint(0, 10), randint(0, 10), randint(0, 10))
+num = (randint(1, 10), randint(1, 10), randint(1, 10), randint(1, 10), randint(1, 10))
 print('0s números sorteados foram: ', end='')
 for i in num:
     print(i, end=' ')

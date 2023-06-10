@@ -9,6 +9,6 @@ print(brasileirao[16:])
 print('Times que jogam o brasileirão em ordem alfabética: ')
 print(sorted(brasileirao))
 if 'Chapecoense' in brasileirao:
-    print('O Chapecoense está na posição {}'.format(brasileirao.index('Chapecoense')))
+    print('O Chapecoense está na posição {}ª'.format(brasileirao.index('Chapecoense')+1))
 else:
     print('O Chapecoense não está jogando a série A do Brasileirão 2023')
