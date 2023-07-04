@@ -4,7 +4,7 @@ def contador(c, f, p):
 	if p == 0:
 		p = 1
 	elif p < 0:
-		p = p * (-1)
+		p *= (-1)
 	if c < f:
 		while c <= f:
 			print(c, end=' ', flush=True)
